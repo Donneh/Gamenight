@@ -22,7 +22,5 @@ Route::get('/show', function () {
     return view('show');
 });
 
-Route::get('/games', 'GamesController@index');
 
-// new
 Route::get('/games', [GamesController::class, 'index']);

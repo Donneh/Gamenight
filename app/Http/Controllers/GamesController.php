@@ -9,6 +9,6 @@ class GamesController extends Controller
 {
     public function index()
     {
-
+        dd(config());
     }
 }
